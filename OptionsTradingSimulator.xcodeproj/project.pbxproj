@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4DB97DE329DDD52900CA3958 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97DE229DDD52900CA3958 /* main.cpp */; };
 		4DB97DEB29DDD58900CA3958 /* user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97DE929DDD58900CA3958 /* user.cpp */; };
+		4DB97DEE29DDD7DD00CA3958 /* OptionContract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DB97DEC29DDD7DD00CA3958 /* OptionContract.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		4DB97DE229DDD52900CA3958 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4DB97DE929DDD58900CA3958 /* user.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = user.cpp; sourceTree = "<group>"; };
 		4DB97DEA29DDD58900CA3958 /* user.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = user.hpp; sourceTree = "<group>"; };
+		4DB97DEC29DDD7DD00CA3958 /* OptionContract.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OptionContract.cpp; sourceTree = "<group>"; };
+		4DB97DED29DDD7DD00CA3958 /* OptionContract.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionContract.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +63,21 @@
 		4DB97DE129DDD52900CA3958 /* OptionsTradingSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				4DB97DEF29DDD84C00CA3958 /* src */,
 				4DB97DE229DDD52900CA3958 /* main.cpp */,
+			);
+			path = OptionsTradingSimulator;
+			sourceTree = "<group>";
+		};
+		4DB97DEF29DDD84C00CA3958 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4DB97DED29DDD7DD00CA3958 /* OptionContract.hpp */,
+				4DB97DEC29DDD7DD00CA3958 /* OptionContract.cpp */,
 				4DB97DE929DDD58900CA3958 /* user.cpp */,
 				4DB97DEA29DDD58900CA3958 /* user.hpp */,
 			);
-			path = OptionsTradingSimulator;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB97DEE29DDD7DD00CA3958 /* OptionContract.cpp in Sources */,
 				4DB97DEB29DDD58900CA3958 /* user.cpp in Sources */,
 				4DB97DE329DDD52900CA3958 /* main.cpp in Sources */,
 			);
